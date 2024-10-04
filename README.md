@@ -9,6 +9,8 @@ The Conformer model is trained for different dropping probabilities p_d (0.2, 0.
 - The dropping probability = 0.5 is the optimum trade-off between WER and computational complexity. Meaning, at inference time, the model trained with p_d = 0.5 results in the best dynamic model that gives the output with minimum WER when tested in various resource settings (low, normal, and high). 
 - Retaining the last Normalization Layer in Conformer block during training, helps the model to converge quickly and the training curve is smoother as compared to when the Normalization Layer is also skipped. ![Ablation - Layer Norm](https://github.com/user-attachments/assets/dc2862a5-0a68-4790-8dee-e2e448015608)
 
+Trained Model with p_d = 0.5 is available [here](https://drive.google.com/drive/folders/1-2awgUupRqTJnPxXmScfqSlWLK-6qN8d?usp=sharing ) 
+
 # How to Use the Repo
 The most important file is the **conf.py** that contains all the configuration for the training and inference phase.
 
