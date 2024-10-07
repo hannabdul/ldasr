@@ -14,4 +14,4 @@ Trained Model with p_d = 0.5 is available [here](https://drive.google.com/drive/
 # How to Use the Repo
 The most important file is the **conf.py** that contains all the configuration for the training and inference phase.
 
-### Note: The code was originally written by [SpeechTeK Lab](https://github.com/SpeechTechLab) at Fondazione Bruno Kessler, Trento, Italy. This repo contains cleaned and commented version of the code with addition of gating mechanism to the conformer architecture.
+**Note:** The code was originally written by [SpeechTeK Lab](https://github.com/SpeechTechLab) at Fondazione Bruno Kessler, Trento, Italy. This repo contains cleaned and commented version of the code with addition of gating mechanism to the conformer architecture.
