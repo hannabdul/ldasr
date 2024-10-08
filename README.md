@@ -14,4 +14,12 @@ Trained Model with p_d = 0.5 is available [here](https://drive.google.com/drive/
 # How to Use the Repo
 The most important file is the **conf.py** that contains all the configuration for the training and inference phase.
 
+# Citation
+\cite{@inproceedings{hannan2024,
+    author = {Hannan, Abdul and Brutti, Alessio and Falavigna, Daniele},
+    title = {{LDASR}: An Experimental Study on Layer Drop using Conformer-based Architecture},
+    booktitle = {Proc. of EUSIPCO},
+    year = {2024}
+}}
+
 **Note:** The code was originally written by [SpeechTeK Lab](https://github.com/SpeechTechLab) at Fondazione Bruno Kessler, Trento, Italy. This repo contains cleaned and commented version of the code with addition of gating mechanism to the conformer architecture.
