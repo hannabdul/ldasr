@@ -15,7 +15,7 @@ Trained Model with p_d = 0.5 is available [here](https://drive.google.com/drive/
 The most important file is the **conf.py** that contains all the configuration for the training and inference phase.
 
 # Citation
-'''
+'''bibtex
 \cite{@inproceedings{hannan2024,
     author = {Hannan, Abdul and Brutti, Alessio and Falavigna, Daniele},
     title = {{LDASR}: An Experimental Study on Layer Drop using Conformer-based Architecture},
